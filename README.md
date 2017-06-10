@@ -9,10 +9,14 @@ As images are not cut or cropped, seemless textures will still be seemless, so n
 
 I made this program for my own use, as when working on game projects, I stumbled across thousands of wonderful free textures. The problem was that basically none of them were power of 2. Some would be 1000x1000 or 1200x1200 for example. So I found myself constantly opening bulky image editing programs, navigating through menus, finding the image resizing tool, manually typing in the new dimensions, and saving it. The whole process taking around 10 clicks and 30 seconds per file (if I was going fast). Going through hundreds of these, let alone thousands, is tedious, mind and finger numbing, and time-consuming. This takes care of everything for you *automatically!*
 
-***How to use***
+***How to Use:***
+
 After installing, simply right click on an image file or multiple selected image files and click "Resize Image(s) to Power of 2". Easy! 
+
 @
+
 It will resize all selected images to the closest power of 2. You can also use it from the command line by using any number of images as the parameters.
+
 @
 
 **Supported Image Types:**
