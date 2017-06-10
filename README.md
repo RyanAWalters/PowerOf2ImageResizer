@@ -44,12 +44,12 @@ It will resize all selected images to the closest power of 2. You can also use i
 Just run the po2ir-installer.exe. It contains all dependencies and will be installed in your Program Files in "po2ir" folder.
 The installer will add the following windows registry keys (needed for right-click context menu resizing):
 
-* `HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Resize Image(s) to Power of 2`
+* `HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Resize Image(s) to Power of 2
   * MultiSelectModel = Player     (Needed for multiple selected context menu)
 * HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Resize Image(s) to Power of 2\command
 * HKEY_CLASSES_ROOT\SystemFileAssociations\.tga\shell\Resize Image(s) to Power of 2
   * MultiSelectModel = Player     (Needed for multiple selected context menu)
-* HKEY_CLASSES_ROOT\SystemFileAssociations\.tga\shell\Resize Image(s) to Power of 2\command
+* HKEY_CLASSES_ROOT\SystemFileAssociations\.tga\shell\Resize Image(s) to Power of 2\command'
 
 ***Uninstalling:***
 
