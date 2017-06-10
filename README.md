@@ -49,7 +49,7 @@ The installer will add the following windows registry keys (needed for right-cli
 * HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Resize Image(s) to Power of 2\command
 * HKEY_CLASSES_ROOT\SystemFileAssociations\.tga\shell\Resize Image(s) to Power of 2
   * MultiSelectModel = Player     (Needed for multiple selected context menu)
-* HKEY_CLASSES_ROOT\SystemFileAssociations\.tga\shell\Resize Image(s) to Power of 2\command'
+* HKEY_CLASSES_ROOT\SystemFileAssociations\.tga\shell\Resize Image(s) to Power of 2\command`
 
 ***Uninstalling:***
 
