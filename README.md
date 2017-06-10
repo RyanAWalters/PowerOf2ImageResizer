@@ -10,9 +10,9 @@ I made this program for my own use, as when working on game projects, I stumbled
 
 ***How to use***
 After installing, simply right click on an image file or multiple selected image files and click "Resize Image(s) to Power of 2". Easy! 
----
+@
 It will resize all selected images to the closest power of 2. You can also use it from the command line by using any number of images as the parameters.
----
+@
 
 **Supported Image Types:**
 * JPG
@@ -28,6 +28,7 @@ There are more file types supported (anything supported by Pillow) like ICO, but
 This program is written in Python and uses Pillow[https://github.com/python-pillow/Pillow] and pyGame[https://www.pygame.org/docs/] (for Targa support).
 
 ***Installing:***
+
 Just run the po2ir-installer.exe. It contains all dependencies and will be installed in your Program Files in "po2r" folder.
 The installer will add the following windows registry keys (needed for right-click context menu resizing):
 * HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Resize Image(s) to Power of 2
@@ -38,4 +39,5 @@ The installer will add the following windows registry keys (needed for right-cli
 * HKEY_CLASSES_ROOT\SystemFileAssociations\.tga\shell\Resize Image(s) to Power of 2\command
 
 ***Uninstalling:***
+
 Run the uninstaller exe in the po2r folder. The uninstaller will also delete the registry keys.
