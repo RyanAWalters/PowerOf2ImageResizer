@@ -1,6 +1,6 @@
 # Power Of 2 Image Resizer
 
-****Optimize Game Engine Textures****
+** *Optimize Game Engine Textures* **
 
 **CURRENTLY WINDOWS ONLY** - *you can still use the python script on any OS if you have the Python and the dependencies installed (pyGame and Pillow), but there is no shell extension, installer, or binary.*
 
