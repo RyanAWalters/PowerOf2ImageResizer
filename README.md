@@ -1,5 +1,7 @@
 # Power Of 2 Image Resizer
 
+****Optimize Game Engine Textures****
+
 **CURRENTLY WINDOWS ONLY** - *you can still use the python script on any OS if you have the Python and the dependencies installed (pyGame and Pillow), but there is no shell extension, installer, or binary.*
 
 This program resizes images to a power of 2 (256, 512, 1024, 2048, etc.). Many game engines cannot use textures without them being a power of 2. Some game engines will use them with poor optimization and limited features. For example, in Unreal Engine, textures that are not a power of 2 cannot use texture streaming and will appear horribly jarring from a distance.
