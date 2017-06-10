@@ -1,6 +1,6 @@
 # Power Of 2 Image Resizer
 
-**CURRENTLY WINDOWS ONLY** - you can still use the python script on any OS if you have the Python and the dependencies installed (pyGame and Pillow), but there is no shell extension, installer, or binary.
+**CURRENTLY WINDOWS ONLY** - *you can still use the python script on any OS if you have the Python and the dependencies installed (pyGame and Pillow), but there is no shell extension, installer, or binary.*
 
 This program resizes images to a power of 2 (256, 512, 1024, 2048, etc.). Many game engines cannot use textures without them being a power of 2. Some game engines will use them with poor optimization and limited features. For example, in Unreal Engine, textures that are not a power of 2 cannot use texture streaming and will appear horribly jarring from a distance.
 This program will take an image, find the closest power of 2 (using a user-defined threshold), and resize that image. So an image that is 1080x1200 would be resized (stretched in this case - images are never cut or cropped) to 1024x1024. Then they are ready to be used in a game engine.
@@ -25,18 +25,18 @@ It will resize all selected images to the closest power of 2. You can also use i
 
 There are more file types supported (anything supported by Pillow) like ICO, but they really won't be used for textures so I won't bother listing them
 
-This program is written in Python and uses Pillow[https://github.com/python-pillow/Pillow] and pyGame[https://www.pygame.org/docs/] (for Targa support).
+This program is written in Python and uses [Pillow](https://github.com/python-pillow/Pillow) and [pyGame](https://www.pygame.org/docs/) (for Targa support).
 
 ***Installing:***
 
 Just run the po2ir-installer.exe. It contains all dependencies and will be installed in your Program Files in "po2r" folder.
 The installer will add the following windows registry keys (needed for right-click context menu resizing):
-* HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Resize Image(s) to Power of 2
+'* HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Resize Image(s) to Power of 2
   * MultiSelectModel = Player     (Needed for multiple selected context menu)
 * HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Resize Image(s) to Power of 2\command
 * HKEY_CLASSES_ROOT\SystemFileAssociations\.tga\shell\Resize Image(s) to Power of 2
   * MultiSelectModel = Player     (Needed for multiple selected context menu)
-* HKEY_CLASSES_ROOT\SystemFileAssociations\.tga\shell\Resize Image(s) to Power of 2\command
+* HKEY_CLASSES_ROOT\SystemFileAssociations\.tga\shell\Resize Image(s) to Power of 2\command'
 
 ***Uninstalling:***
 
