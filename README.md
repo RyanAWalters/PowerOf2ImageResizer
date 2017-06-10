@@ -30,7 +30,7 @@ This program is written in Python and uses [Pillow](https://github.com/python-pi
 
 After installing, simply right click on an image file or multiple selected image files and click "Resize Image(s) to Power of 2". Easy! 
 
-@
+![]()
 
 It will resize all selected images to the closest power of 2. You can also use it from the command line by using any number of images as the parameters.
 
@@ -41,16 +41,16 @@ It will resize all selected images to the closest power of 2. You can also use i
 ---
 ***Installing:***
 
-Just run the po2ir-installer.exe. It contains all dependencies and will be installed in your Program Files in "po2r" folder.
+Just run the po2ir-installer.exe. It contains all dependencies and will be installed in your Program Files in "po2ir" folder.
 The installer will add the following windows registry keys (needed for right-click context menu resizing):
 
-* HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Resize Image(s) to Power of 2
-  * MultiSelectModel = Player     (Needed for multiple selected context menu)
-* HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Resize Image(s) to Power of 2\command
-* HKEY_CLASSES_ROOT\SystemFileAssociations\.tga\shell\Resize Image(s) to Power of 2
-  * MultiSelectModel = Player     (Needed for multiple selected context menu)
-* HKEY_CLASSES_ROOT\SystemFileAssociations\.tga\shell\Resize Image(s) to Power of 2\command
+* `HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Resize Image(s) to Power of 2`
+  * `MultiSelectModel = Player     (Needed for multiple selected context menu)`
+* `HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Resize Image(s) to Power of 2\command`
+* `HKEY_CLASSES_ROOT\SystemFileAssociations\.tga\shell\Resize Image(s) to Power of 2`
+  * `MultiSelectModel = Player     (Needed for multiple selected context menu)`
+* `HKEY_CLASSES_ROOT\SystemFileAssociations\.tga\shell\Resize Image(s) to Power of 2\command`
 
 ***Uninstalling:***
 
-Run the uninstaller exe in the po2r folder. The uninstaller will also delete the registry keys.
+Run the uninstaller exe in the po2ir folder. The uninstaller will also delete the registry keys.
