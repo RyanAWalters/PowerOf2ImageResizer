@@ -8,7 +8,7 @@
 This program resizes images to a power of 2 `(256, 512, 1024, 2048, etc.)`. Many game engines cannot use textures without them being a power of 2. Some game engines will use them with poor optimization and limited features. For example, in Unreal Engine, textures that are not a power of 2 cannot use texture streaming and will appear horribly jarring from a distance.
 This program will take an image, find the closest power of 2 (using a user-defined threshold), and resize that image. So an image that is 1080x1200 would be resized (stretched in this case - images are never cut or cropped) to 1024x1024. Then they are ready to be used in a game engine.
 
-As images are not cut or cropped, seemless textures will still be seemless, so no worries.
+As images are not cut or cropped, seamless textures will still be seamless, so no worries.
 
 I made this program for my own use, as when working on game projects, I stumbled across thousands of wonderful free textures. The problem was that basically none of them were power of 2. Some would be 1000x1000 or 1200x1200 for example. So I found myself constantly opening bulky image editing programs, navigating through menus, finding the image resizing tool, manually typing in the new dimensions, and saving it. The whole process taking around 10 clicks and 30 seconds per file (if I was going fast). Going through hundreds of these, let alone thousands, is tedious, mind and finger numbing, and time-consuming. This takes care of everything for you *automatically!*
 
@@ -30,7 +30,13 @@ This program is written in Python and uses [Pillow](https://github.com/python-pi
 
 After installing, simply right click on an image file or multiple selected image files and click "Resize Image(s) to Power of 2". Easy! 
 
-![]()
+<p align="center">
+  <img src="img/3.png" width="400"> <img src="img/2.png" width="400"> <img src="img/1.png" width="400">
+</p>
+<hr />
+<p align="center">
+  <img src="img/4.png" width="400"> <img src="img/5.png" width="400"> <img src="img/6.png" width="400"> <img src="img/7.png" width="400">
+</p>
 
 It will resize all selected images to the closest power of 2. You can also use it from the command line by using any number of images as the parameters.
 
