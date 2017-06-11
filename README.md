@@ -1,5 +1,5 @@
 <h1><img src="img/icon.bmp" width="50">
-Power Of 2 Image Resizer - <i>Optimize Game Engine Textures</i>
+Power Of 2 Image Resizer - <br><i>Optimize Game Engine Textures</i>
 </h1>
 
 
