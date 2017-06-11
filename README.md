@@ -1,4 +1,8 @@
 # Power Of 2 Image Resizer - *Optimize Game Engine Textures*
+<h1><img src="img/icon.bmp" width="50">
+Power Of 2 Image Resizer - <i>Optimize Game Engine Textures</i>
+</h1>
+
 
 **About**
 ---
