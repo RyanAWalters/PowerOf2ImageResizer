@@ -2,6 +2,8 @@
 Power Of 2 Image Resizer - <br><i>Optimize Game Engine Textures</i>
 </h1>
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 **About**
 ---
